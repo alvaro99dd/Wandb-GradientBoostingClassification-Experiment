@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-07-04T13:00:49.836270",
+    "startedAt": "2024-07-04T13:00:47.872167",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-ARMROF1",
+    "username": "NITROPC",
+    "executable": "c:\\Users\\NITROPC\\Desktop\\Bootcamp\\mi_entorno\\Scripts\\python.exe"
+}

@@ -1,0 +1,6 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x000001826178E590>> (for post_run_cell), with arguments args (<ExecutionResult object at 18220117bd0, execution_count=1 error_before_exec=None error_in_exec=The 'subsample' parameter of GradientBoostingClassifier must be a float in the range (0.0, 1.0]. Got 1.2 instead. info=<ExecutionInfo object at 1821fcfdbd0, raw_cell="import numpy as np
+import wandb
+from sklearn.datas.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/c%3A/Users/NITROPC/Desktop/Bootcamp/Temario/Modulo_3/Wandb/Wine.ipynb#W1sZmlsZQ%3D%3D> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x000001826178E590>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 18261707250, raw_cell="import numpy as np
+import wandb
+from sklearn.datas.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell:/c%3A/Users/NITROPC/Desktop/Bootcamp/Temario/Modulo_3/Wandb/Wine.ipynb#W1sZmlsZQ%3D%3D>,),kwargs {}:

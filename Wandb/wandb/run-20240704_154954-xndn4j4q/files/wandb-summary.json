@@ -1,0 +1,1 @@
+{"accuracy": 0.9259259259259259, "f1_macro": 0.9275971258068445, "roc_auc_macro": 0.9894220633280891, "validation_score": 0.06644015501175139, "_timestamp": 1720100996, "_runtime": 2, "_step": 0, "_wandb": {"runtime": 0}}

@@ -1,0 +1,160 @@
+2024-07-04 15:43:40,006 INFO    MainThread:19264 [wandb_setup.py:_flush():76] Loading settings from C:\Users\NITROPC\.config\wandb\settings
+2024-07-04 15:43:40,006 INFO    MainThread:19264 [wandb_setup.py:_flush():76] Loading settings from c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\settings
+2024-07-04 15:43:40,006 INFO    MainThread:19264 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-04 15:43:40,006 INFO    MainThread:19264 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-04 15:43:40,006 INFO    MainThread:19264 [wandb_init.py:_log_setup():428] Logging user logs to c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_154340-mkv7k7yd\logs\debug.log
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [wandb_init.py:_log_setup():429] Logging internal logs to c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_154340-mkv7k7yd\logs\debug-internal.log
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001826178D110>
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [wandb_init.py:init():462] calling init triggers
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {'learning_rates': [0.02, 0.2, 0.3, 0.4], 'max_depths': [4, 5, 6, 7], 'n_estimators': [120, 140, 160], 'loss_functions': ['log_loss'], 'subsamples': [0.7, 1.0], 'min_samples_splits': [2, 4], 'min_samples_leafs': [1, 2]}
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [wandb_init.py:init():515] starting backend
+2024-07-04 15:43:40,007 INFO    MainThread:19264 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2024-07-04 15:43:40,008 INFO    MainThread:19264 [backend.py:ensure_launched():217] starting backend process...
+2024-07-04 15:43:40,089 INFO    MainThread:19264 [backend.py:ensure_launched():222] started backend process with pid: 16560
+2024-07-04 15:43:40,089 INFO    MainThread:19264 [wandb_init.py:init():525] backend started and connected
+2024-07-04 15:43:40,092 INFO    MainThread:19264 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2024-07-04 15:43:40,092 INFO    MainThread:19264 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-04 15:43:40,092 INFO    MainThread:19264 [wandb_init.py:init():596] updated telemetry
+2024-07-04 15:43:40,095 INFO    MainThread:19264 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-07-04 15:43:41,793 INFO    MainThread:19264 [wandb_run.py:_on_init():1924] communicating current version
+2024-07-04 15:43:41,885 INFO    MainThread:19264 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-04 15:43:41,885 INFO    MainThread:19264 [wandb_init.py:init():662] starting run threads in backend
+2024-07-04 15:43:42,098 INFO    MainThread:19264 [wandb_run.py:_console_start():1898] atexit reg
+2024-07-04 15:43:42,099 INFO    MainThread:19264 [wandb_run.py:_redirect():1771] redirect: 1
+2024-07-04 15:43:42,099 INFO    MainThread:19264 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2024-07-04 15:43:42,100 INFO    MainThread:19264 [wandb_run.py:_redirect():1832] Redirects installed.
+2024-07-04 15:43:42,100 INFO    MainThread:19264 [wandb_init.py:init():688] run started, returning control to user process
+2024-07-04 15:43:42,405 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set learning_rate = 0.02 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,405 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb learning_rate 0.02 None
+2024-07-04 15:43:42,405 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set max_depth = 4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,405 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb max_depth 4 None
+2024-07-04 15:43:42,407 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set n_estimators = 140 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,407 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb n_estimators 140 None
+2024-07-04 15:43:42,407 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set loss_function = log_loss - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,407 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb loss_function log_loss None
+2024-07-04 15:43:42,407 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set subsample = 0.7 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,408 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb subsample 0.7 None
+2024-07-04 15:43:42,408 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set min_samples_split = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,408 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb min_samples_split 2 None
+2024-07-04 15:43:42,408 INFO    MainThread:19264 [wandb_config.py:__setitem__():150] config set min_samples_leaf = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000018262E90B50>>
+2024-07-04 15:43:42,408 INFO    MainThread:19264 [wandb_run.py:_config_callback():1136] config_cb min_samples_leaf 2 None
+2024-07-04 15:43:42,413 INFO    MainThread:19264 [wandb_run.py:_finish():1685] finishing run alvarodd99-Upgrade hub/vinitoclasi/mkv7k7yd
+2024-07-04 15:43:42,413 INFO    MainThread:19264 [jupyter.py:save_history():435] not saving jupyter history
+2024-07-04 15:43:42,413 INFO    MainThread:19264 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2024-07-04 15:43:42,413 INFO    MainThread:19264 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2024-07-04 15:43:42,413 INFO    MainThread:19264 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2024-07-04 15:43:42,414 INFO    MainThread:19264 [wandb_run.py:_restore():1839] restore
+2024-07-04 15:43:42,604 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 533
+  total_bytes: 533
+}
+
+2024-07-04 15:43:42,891 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 533
+  total_bytes: 533
+}
+
+2024-07-04 15:43:43,823 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 533
+  total_bytes: 5744
+}
+
+2024-07-04 15:43:43,925 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 533
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,027 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 533
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,128 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4842
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,230 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,332 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,433 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,535 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,637 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:44,841 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+
+2024-07-04 15:43:45,281 INFO    MainThread:19264 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 5965
+  total_bytes: 5965
+}
+local_info {
+}
+
+2024-07-04 15:43:46,524 INFO    MainThread:19264 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-07-04 15:43:46,525 INFO    MainThread:19264 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-07-04 15:43:46,529 INFO    MainThread:19264 [wandb_run.py:_footer_sync_info():3060] logging synced files

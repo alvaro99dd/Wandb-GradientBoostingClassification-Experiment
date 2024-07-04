@@ -1,0 +1,154 @@
+2024-07-04 15:04:42,287 INFO    MainThread:2052 [internal.py:wandb_internal():90] W&B internal server running at pid: 2052, started at: 2024-07-04 15:04:42.287575
+2024-07-04 15:04:42,288 INFO    WriterThread:2052 [datastore.py:open_for_write():75] open: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\run-selhuz1j.wandb
+2024-07-04 15:04:42,291 DEBUG   SenderThread:2052 [sender.py:send():232] send: header
+2024-07-04 15:04:42,291 DEBUG   SenderThread:2052 [sender.py:send():232] send: run
+2024-07-04 15:04:42,550 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: check_version
+2024-07-04 15:04:42,551 INFO    SenderThread:2052 [dir_watcher.py:__init__():197] watching files in: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files
+2024-07-04 15:04:42,551 INFO    SenderThread:2052 [sender.py:_start_run_threads():811] run started: selhuz1j with start time 1720098280
+2024-07-04 15:04:42,551 DEBUG   SenderThread:2052 [sender.py:send():232] send: summary
+2024-07-04 15:04:42,551 INFO    SenderThread:2052 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-07-04 15:04:42,552 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: check_version
+2024-07-04 15:04:42,636 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: run_start
+2024-07-04 15:04:42,655 DEBUG   HandlerThread:2052 [meta.py:__init__():35] meta init
+2024-07-04 15:04:42,655 DEBUG   HandlerThread:2052 [meta.py:__init__():49] meta init done
+2024-07-04 15:04:42,655 DEBUG   HandlerThread:2052 [meta.py:probe():209] probe
+2024-07-04 15:04:42,670 DEBUG   HandlerThread:2052 [git.py:repo():29] git repository is invalid
+2024-07-04 15:04:42,670 DEBUG   HandlerThread:2052 [meta.py:_save_pip():53] save pip
+2024-07-04 15:04:42,670 DEBUG   HandlerThread:2052 [meta.py:_save_pip():67] save pip done
+2024-07-04 15:04:42,671 DEBUG   HandlerThread:2052 [meta.py:probe():247] probe done
+2024-07-04 15:04:42,840 DEBUG   SenderThread:2052 [sender.py:send():232] send: files
+2024-07-04 15:04:42,840 INFO    SenderThread:2052 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2024-07-04 15:04:42,848 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: stop_status
+2024-07-04 15:04:42,848 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: stop_status
+2024-07-04 15:04:43,078 DEBUG   SenderThread:2052 [sender.py:send():232] send: telemetry
+2024-07-04 15:04:43,181 DEBUG   SenderThread:2052 [sender.py:send():232] send: telemetry
+2024-07-04 15:04:43,181 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,181 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,182 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,182 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,183 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,183 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,186 DEBUG   SenderThread:2052 [sender.py:send():232] send: config
+2024-07-04 15:04:43,187 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: partial_history
+2024-07-04 15:04:43,188 DEBUG   SenderThread:2052 [sender.py:send():232] send: history
+2024-07-04 15:04:43,188 DEBUG   SenderThread:2052 [sender.py:send():232] send: summary
+2024-07-04 15:04:43,189 INFO    SenderThread:2052 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-07-04 15:04:43,189 DEBUG   SenderThread:2052 [sender.py:send():232] send: telemetry
+2024-07-04 15:04:43,189 DEBUG   SenderThread:2052 [sender.py:send():232] send: telemetry
+2024-07-04 15:04:43,349 DEBUG   SenderThread:2052 [sender.py:send():232] send: exit
+2024-07-04 15:04:43,349 INFO    SenderThread:2052 [sender.py:send_exit():368] handling exit code: 0
+2024-07-04 15:04:43,349 INFO    SenderThread:2052 [sender.py:send_exit():370] handling runtime: 0
+2024-07-04 15:04:43,350 INFO    SenderThread:2052 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-07-04 15:04:43,350 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:43,350 INFO    SenderThread:2052 [sender.py:send_exit():376] send defer
+2024-07-04 15:04:43,351 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:43,351 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,351 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 0
+2024-07-04 15:04:43,351 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,351 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 0
+2024-07-04 15:04:43,351 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 1
+2024-07-04 15:04:43,352 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,352 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 1
+2024-07-04 15:04:43,361 INFO    Thread-15 :2052 [upload_job.py:push():132] Uploaded file C:\Users\NITROPC\AppData\Local\Temp\tmpfsq52pz9wandb\fforg0ty-wandb-metadata.json
+2024-07-04 15:04:43,432 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,432 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 1
+2024-07-04 15:04:43,432 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 2
+2024-07-04 15:04:43,432 DEBUG   SenderThread:2052 [sender.py:send():232] send: stats
+2024-07-04 15:04:43,433 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,433 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 2
+2024-07-04 15:04:43,433 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,433 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 2
+2024-07-04 15:04:43,433 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 3
+2024-07-04 15:04:43,433 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,433 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 3
+2024-07-04 15:04:43,433 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,434 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 3
+2024-07-04 15:04:43,434 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 4
+2024-07-04 15:04:43,434 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,434 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 4
+2024-07-04 15:04:43,434 DEBUG   SenderThread:2052 [sender.py:send():232] send: summary
+2024-07-04 15:04:43,434 INFO    SenderThread:2052 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-07-04 15:04:43,435 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,435 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 4
+2024-07-04 15:04:43,435 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 5
+2024-07-04 15:04:43,435 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,435 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 5
+2024-07-04 15:04:43,435 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,435 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 5
+2024-07-04 15:04:43,453 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:43,562 INFO    Thread-11 :2052 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\output.log
+2024-07-04 15:04:43,562 INFO    Thread-11 :2052 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\wandb-summary.json
+2024-07-04 15:04:43,563 INFO    Thread-11 :2052 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\requirements.txt
+2024-07-04 15:04:43,563 INFO    Thread-11 :2052 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\wandb-metadata.json
+2024-07-04 15:04:43,698 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 6
+2024-07-04 15:04:43,698 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:43,698 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:43,698 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 6
+2024-07-04 15:04:43,698 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:43,699 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 6
+2024-07-04 15:04:43,699 INFO    SenderThread:2052 [dir_watcher.py:finish():312] shutting down directory watcher
+2024-07-04 15:04:43,799 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:44,562 INFO    Thread-11 :2052 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\config.yaml
+2024-07-04 15:04:44,563 INFO    SenderThread:2052 [dir_watcher.py:finish():342] scan: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files
+2024-07-04 15:04:44,563 INFO    SenderThread:2052 [dir_watcher.py:finish():356] scan save: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\config.yaml config.yaml
+2024-07-04 15:04:44,563 INFO    SenderThread:2052 [dir_watcher.py:finish():356] scan save: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\output.log output.log
+2024-07-04 15:04:44,564 INFO    SenderThread:2052 [dir_watcher.py:finish():356] scan save: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\requirements.txt requirements.txt
+2024-07-04 15:04:44,565 INFO    SenderThread:2052 [dir_watcher.py:finish():356] scan save: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\wandb-metadata.json wandb-metadata.json
+2024-07-04 15:04:44,565 INFO    SenderThread:2052 [dir_watcher.py:finish():356] scan save: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\wandb-summary.json wandb-summary.json
+2024-07-04 15:04:44,565 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 7
+2024-07-04 15:04:44,567 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:44,570 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:44,570 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 7
+2024-07-04 15:04:44,570 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:44,570 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 7
+2024-07-04 15:04:44,570 INFO    SenderThread:2052 [file_pusher.py:finish():145] shutting down file pusher
+2024-07-04 15:04:44,669 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:44,669 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:44,771 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:44,771 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:44,872 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:44,872 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:44,974 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:44,974 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,070 INFO    Thread-16 :2052 [upload_job.py:push():132] Uploaded file c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\config.yaml
+2024-07-04 15:04:45,075 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,075 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,113 INFO    Thread-17 :2052 [upload_job.py:push():132] Uploaded file c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\requirements.txt
+2024-07-04 15:04:45,177 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,177 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,193 INFO    Thread-18 :2052 [upload_job.py:push():132] Uploaded file c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\files\wandb-summary.json
+2024-07-04 15:04:45,279 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,279 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,380 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,380 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,406 INFO    Thread-10 (_thread_body):2052 [sender.py:transition_state():389] send defer: 8
+2024-07-04 15:04:45,406 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:45,406 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 8
+2024-07-04 15:04:45,406 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:45,406 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 8
+2024-07-04 15:04:45,481 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,555 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 9
+2024-07-04 15:04:45,555 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,555 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:45,555 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 9
+2024-07-04 15:04:45,555 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:45,555 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 9
+2024-07-04 15:04:45,556 INFO    SenderThread:2052 [sender.py:transition_state():389] send defer: 10
+2024-07-04 15:04:45,556 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: defer
+2024-07-04 15:04:45,556 DEBUG   SenderThread:2052 [sender.py:send():232] send: final
+2024-07-04 15:04:45,556 INFO    HandlerThread:2052 [handler.py:handle_request_defer():164] handle defer: 10
+2024-07-04 15:04:45,556 DEBUG   SenderThread:2052 [sender.py:send():232] send: footer
+2024-07-04 15:04:45,556 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: defer
+2024-07-04 15:04:45,556 INFO    SenderThread:2052 [sender.py:send_request_defer():385] handle sender defer: 10
+2024-07-04 15:04:45,656 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: poll_exit
+2024-07-04 15:04:45,656 DEBUG   SenderThread:2052 [sender.py:send_request():246] send_request: poll_exit
+2024-07-04 15:04:45,656 INFO    SenderThread:2052 [file_pusher.py:join():150] waiting for file pusher
+2024-07-04 15:04:46,116 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: sampled_history
+2024-07-04 15:04:46,117 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: get_summary
+2024-07-04 15:04:46,118 DEBUG   HandlerThread:2052 [handler.py:handle_request():141] handle_request: shutdown
+2024-07-04 15:04:46,118 INFO    HandlerThread:2052 [handler.py:finish():806] shutting down handler
+2024-07-04 15:04:46,564 INFO    WriterThread:2052 [datastore.py:close():279] close: c:\Users\NITROPC\Desktop\Bootcamp\Temario\Modulo_3\Wandb\wandb\run-20240704_150440-selhuz1j\run-selhuz1j.wandb
+2024-07-04 15:04:47,015 INFO    SenderThread:2052 [sender.py:finish():1110] shutting down sender
+2024-07-04 15:04:47,015 INFO    SenderThread:2052 [file_pusher.py:finish():145] shutting down file pusher
+2024-07-04 15:04:47,015 INFO    SenderThread:2052 [file_pusher.py:join():150] waiting for file pusher
+2024-07-04 15:04:47,016 INFO    MainThread:2052 [internal.py:handle_exit():80] Internal process exited
