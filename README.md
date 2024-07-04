@@ -10,7 +10,7 @@ Usando el dataset Wine, obtenido de la librería [sklearn.datasets](https://scik
 Para este proyecto hemos usado el algoritmo de machine learning llamado Gradient Boosting Classifier.
 
 Nuestro objetivo era encontrar el mejor modelo posible dentro de este algoritmo, para ello hemos combinado distintos hiperparámetros implementando Weights & Biases a nuestro pipeline, haciendo mucho más sencillo el proceso y permitiéndonos crear un informe interactivo con la información que creamos conveniente.
-![Alt text](https://drive.google.com/file/d/1tzrQrtNuQnwHvf03WZhj6gMSvDoIohMy/view?usp=drive_link)
+![Alt text](https://drive.google.com/file/d/1tzrQrtNuQnwHvf03WZhj6gMSvDoIohMy/view?usp=sharing)
 
 ### Hiperparámetros utilizados
 Durante este proceso, se hicieron 83 runs con diferentes combinaciones de hiperparámetros para comprobar cuáles eran los mejores.
