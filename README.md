@@ -4,7 +4,7 @@ Hemos usado el dataset público de Wine para evaluar el comportamiento de difere
 Este es un proyecto realizado para Upgrade Hub en una de sus clases de ciencia de datos.
 
 ### Descripción del experimento
-Usando el dataset Wine, obtenido de la librería [sklearn.datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html) hemos entrenado un modelo de clasificación para predecir la categoría del vino según ciertas variables como el alcohol que contiene o sus componentes. Este dataset es de uso común durante el aprendizaje de machine learning.
+Usando el dataset Wine, obtenido de la librería [sklearn.datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html), hemos entrenado un modelo de clasificación para predecir la categoría del vino según ciertas variables como el alcohol que contiene o sus componentes. Este dataset es de uso común durante el aprendizaje de machine learning.
 
 ### Eligiendo el modelo
 Para este proyecto hemos usado el algoritmo de machine learning llamado Gradient Boosting Classifier.
